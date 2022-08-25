@@ -1,47 +1,41 @@
-## Игнорировать временные файлы Visual Studio, результаты сборки и
-## файлы, созданные популярными дополнениями Visual Studio.
-##
-## Получить последнюю версию от https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
-
-# Файлы, зависящие от пользователя
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Пользовательские файлы (MonoDevelop / Xamarin Studio)
-*.пользовательские настройки
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
 
-# Автоматически генерируемые файлы Mono
+# Mono auto generated files
 mono_crash.*
 
-# Результаты сборки
-[Dd]ошибка/
+# Build results
+[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
 x64/
 x86/
 [Ww][Ii][Nn]32/
-[Aa][Rr][Мм]/
-[Aa][Rr] [Мм]64/
-блд/
-[Bb]в/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
 
-# Visual Studio 2015/2017 каталог кэша / параметров
+# Visual Studio 2015/2017 cache/options directory
 .vs/
-# Раскомментируйте, если у вас есть задачи, которые создают статические файлы проекта в wwwroot
+# Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
-# Автоматически генерируемые файлы Visual Studio 2017
-Сгенерированные\ Файлы/
+# Visual Studio 2017 auto generated files
+Generated\ Files/
 
-# MSTest результаты тестирования
-[Tt]есть[Rr]результат */
+# MSTest test Results
+[Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
 # NUnit
@@ -49,7 +43,7 @@ x86/
 TestResult.xml
 nunit-*.xml
 
-# Результаты построения ATL-проекта
+# Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
@@ -93,36 +87,36 @@ StyleCopReport.xml
 *.tlog
 *.vspscc
 *.vssscc
-.сборки
+.builds
 *.pidb
 *.svclog
 *.scc
 
-# Тестовые файлы Chutzpah
+# Chutzpah Test files
 _Chutzpah*
 
-# Файлы кэша Visual C ++
+# Visual C++ cache files
 ipch/
-*.точки доступа
+*.aps
 *.ncb
 *.opendb
 *.opensdf
 *.sdf
-*.файл кэша
+*.cachefile
 *.VC.db
 *.VC.VC.opendb
 
-# Профилировщик Visual Studio
+# Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
 *.sap
 
-# Файлы трассировки Visual Studio
+# Visual Studio Trace Files
 *.e2e
 
-# Локальное рабочее пространство TFS 2012
-$ tf/
+# TFS 2012 Local Workspace
+$tf/
 
 # Guidance Automation Toolkit
 *.gpState
@@ -147,52 +141,52 @@ coverage*.json
 coverage*.xml
 coverage*.info
 
-# Результаты покрытия кода Visual Studio
-*.покрытие
+# Visual Studio code coverage results
+*.coverage
 *.coveragexml
 
 # NCrunch
 _NCrunch_*
-.*хруст*.local.xml
+.*crunch*.local.xml
 nCrunchTemp_*
 
 # MightyMoose
 *.mm.*
 AutoTest.Net/
 
-# Веб-верстак (sass)
-.sass-кэш/
+# Web workbench (sass)
+.sass-cache/
 
-# Выходная папка Installshield
+# Installshield output folder
 [Ee]xpress/
 
-# DocProject - это надстройка генератора документации
+# DocProject is a documentation generator add-in
 DocProject/buildhelp/
 DocProject/Help/*.HxT
 DocProject/Help/*.HxC
 DocProject/Help/*.hhc
 DocProject/Help/*.hhk
-DocProject/Справка/*.hhp
-DocProject/Справка/Html2
-DocProject/Справка/html
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
 
-# Каталог с одним щелчком мыши
-опубликовать/
+# Click-Once directory
+publish/
 
-# Публикация веб-результатов
-*.[Пп]ublish.xml
+# Publish Web Output
+*.[Pp]ublish.xml
 *.azurePubxml
-# Примечание: Прокомментируйте следующую строку, если вы хотите проверить настройки веб-развертывания,
-# но строки подключения к базе данных (с потенциальными паролями) будут незашифрованными
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
-*.опубликовать проект
+*.publishproj
 
-# Параметры публикации веб-приложения Microsoft Azure. Прокомментируйте следующую строку, если вы хотите
-# проверка параметров публикации веб-приложения Azure, но конфиденциальная информация, содержащаяся
-# в этих скриптах будут незашифрованы
-Публикации скриптов/
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
 
-# Пакеты NuGet
+# NuGet Packages
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
@@ -223,14 +217,14 @@ _pkginfo.txt
 *.appxbundle
 *.appxupload
 
-# Файлы кэша Visual Studio
-# файлы, заканчивающиеся на .cache, могут быть проигнорированы
-*.[Cc]боль
-# но следите за каталогами, заканчивающимися на .cache
-!? *.[Cc]боль/
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
 
-# Другие
-Клиентская база/
+# Others
+ClientBin/
 ~$*
 *~
 *.dbmdl
@@ -240,35 +234,35 @@ _pkginfo.txt
 *.publishsettings
 orleans.codegen.cs
 
-# Включение файлов со строгими именами может представлять угрозу безопасности
-# (https://github.com/github/gitignore/pull/2483#issue-259490424 )
+# Including strong name files can present a security risk
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
 
-# Поскольку существует несколько рабочих процессов, раскомментируйте следующую строку, чтобы игнорировать bower_components
-# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622 )
-#bower_компоненты/
+# Since there are multiple workflows, uncomment next line to ignore bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
 
-# RIA/Проекты Silverlight
-Сгенерированный код/
+# RIA/Silverlight projects
+Generated_Code/
 
-# Резервное копирование и создание отчетов о файлах после преобразования старого файла проекта
-# к более новой версии Visual Studio. Резервные копии файлов не нужны,
-# потому что у нас есть git ;-)
-_преобразование_порт_файлы/
-Резервноекопирование*/
-Журналобновления*.XML
-Списокобновлений *.htm
-Резервное копирование ServiceFabricBackup/
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
 *.rptproj.bak
 
-# Файлы SQL Server
+# SQL Server files
 *.mdf
 *.ldf
-*.ндфл
+*.ndf
 
-# Проекты бизнес-аналитики
-*.rdl.данные
-*.bim.макет
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
 *- [Bb]ackup.rdl
@@ -331,52 +325,52 @@ __pycache__/
 # tools/**
 # !tools/packages.config
 
-# Студия вкладок
+# Tabs Studio
 *.tss
 
-# Конфигурационный файл JustMock от Telerik
+# Telerik's JustMock configuration file
 *.jmconfig
 
-# Вывод сборки BizTalk
+# BizTalk build output
 *.btp.cs
 *.btm.cs
 *.odx.cs
 *.xsd.cs
 
-# Результаты анализа пользовательского интерфейса OpenCover
-Открыть обложку/
+# OpenCover UI analysis results
+OpenCover/
 
-# Вывод локального запуска Azure Stream Analytics
+# Azure Stream Analytics local run output
 ASALocalRun/
 
-# Двоичный и структурированный журнал MSBuild
+# MSBuild Binary and Structured Log
 *.binlog
 
-# Файл конфигурации отладчика графического процессора NVidia Nsight
+# NVidia Nsight GPU debugger configuration file
 *.nvuser
 
-# Рабочая папка MFractors (инструмент повышения производительности Xamarin)
+# MFractors (Xamarin productivity tool) working folder
 .mfractor/
 
-# Локальная история для Visual Studio
-.локальная история/
+# Local History for Visual Studio
+.localhistory/
 
-# История файлов Visual Studio (VSHistory)
-.история/
+# Visual Studio History (VSHistory) files
+.vshistory/
 
-# Проверка работоспособности временной базы данных BeatPulse
+# BeatPulse healthcheck temp database
 healthchecksdb
 
-# Папка резервного копирования для инструмента преобразования ссылок на пакеты в Visual Studio 2017
-Резервное копирование миграции/
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
 
-# Рабочая папка Ionide (кроссплатформенный F # VS Code tools)
-.ионид/
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
 
-# Fody - автоматически сгенерированная XML-схема
+# Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-# Файлы VS Code для тех, кто работает с несколькими инструментами
+# VS Code files for those working on multiple tools
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
